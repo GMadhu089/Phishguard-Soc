@@ -1,0 +1,27 @@
+From: IT Support <it-support@example.com>
+To: employee@example.com
+Reply-To: it-support@example.com
+Return-Path: <it-support@example.com>
+Subject: Scheduled maintenance window this weekend
+Date: Mon, 14 Sep 2026 09:15:00 +0000
+Message-ID: <a1b2c3d4@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Received: from mail.example.com (mail.example.com [198.51.100.10])
+    by mx.example.com with ESMTPS id abc123
+    for <employee@example.com>; Mon, 14 Sep 2026 09:14:55 +0000
+Received: from internal-relay.example.com (internal-relay.example.com [10.0.0.5])
+    by mail.example.com with SMTP id def456
+    for <employee@example.com>; Mon, 14 Sep 2026 09:14:50 +0000
+Authentication-Results: mx.example.com;
+    spf=pass smtp.mailfrom=example.com;
+    dkim=pass header.d=example.com header.s=default;
+    dmarc=pass (p=reject) header.from=example.com
+
+Hi team,
+
+There will be a scheduled maintenance window this Saturday from 10 PM to
+2 AM. Internal systems may be briefly unavailable during this time.
+
+Thanks,
+IT Support

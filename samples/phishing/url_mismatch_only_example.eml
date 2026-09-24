@@ -1,0 +1,23 @@
+From: Shared Document <notify@example.test>
+To: employee@example.com
+Subject: A document has been shared with you
+Date: Fri, 18 Sep 2026 16:10:00 +0000
+Message-ID: <share-0918@example.test>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Received: from mail.example.test (mail.example.test [198.51.100.44])
+    by mx.example.com with ESMTPS id bcd890
+    for <employee@example.com>; Fri, 18 Sep 2026 16:10:02 +0000
+Authentication-Results: mx.example.com;
+    spf=pass smtp.mailfrom=example.test;
+    dkim=pass header.d=example.test header.s=default;
+    dmarc=pass (p=none) header.from=example.test
+
+<html>
+<body>
+<p>Hi,</p>
+<p>A document titled "Q3 Budget Review" has been shared with you.</p>
+<p>View it here: <a href="https://document-viewer-example.test/file?id=88231">https://docs.google.com/document/d/review</a></p>
+<p>This link will expire in 7 days.</p>
+</body>
+</html>

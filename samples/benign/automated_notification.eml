@@ -1,0 +1,26 @@
+From: CI Pipeline <ci-noreply@example.com>
+To: devteam@example.com
+Subject: Build #4821 succeeded on main
+Date: Fri, 18 Sep 2026 14:32:00 +0000
+Message-ID: <build-4821@example.com>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Received: from ci.internal.example.com (ci.internal.example.com [10.0.2.15])
+    by mail.example.com with ESMTP id vwx234
+    for <devteam@example.com>; Fri, 18 Sep 2026 14:32:01 +0000
+Received: from mail.example.com (mail.example.com [198.51.100.20])
+    by mx.example.com with ESMTPS id yza567
+    for <devteam@example.com>; Fri, 18 Sep 2026 14:32:02 +0000
+Authentication-Results: mx.example.com;
+    spf=pass smtp.mailfrom=example.com;
+    dkim=pass header.d=example.com header.s=ci;
+    dmarc=pass (p=quarantine) header.from=example.com
+X-Mailer: InternalCI/2.4
+
+Build #4821 on branch 'main' completed successfully.
+
+Commit: a1b2c3d
+Author: jdoe
+Duration: 4m12s
+
+No action needed.

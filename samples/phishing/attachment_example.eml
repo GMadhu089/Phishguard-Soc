@@ -1,0 +1,30 @@
+From: Billing Department <billing@example.test>
+To: employee@example.com
+Subject: Invoice attached - payment overdue
+Date: Tue, 15 Sep 2026 11:05:00 +0000
+Message-ID: <inv-001@example.test>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="BOUNDARY123"
+Received: from relay.example.test (relay.example.test [203.0.113.50])
+    by mx.example.com with ESMTP id mno345
+    for <employee@example.com>; Tue, 15 Sep 2026 11:04:55 +0000
+Authentication-Results: mx.example.com;
+    spf=softfail smtp.mailfrom=example.test;
+    dkim=none;
+    dmarc=fail (p=quarantine) header.from=example.test
+
+--BOUNDARY123
+Content-Type: text/plain; charset="utf-8"
+
+Please find the overdue invoice attached. Enable macros to view the
+formatted invoice details.
+
+Billing Department
+
+--BOUNDARY123
+Content-Type: application/vnd.ms-word.document.macroEnabled.12
+Content-Disposition: attachment; filename="Invoice_2026_0091.docm"
+Content-Transfer-Encoding: base64
+
+VGhpcyBpcyBhIHNhZmUgc3ludGhldGljIHRlc3QgcGF5bG9hZCwgbm90IHJlYWwgbWFsd2FyZS4=
+--BOUNDARY123--

@@ -1,0 +1,20 @@
+From: PayPal Security <security@paypa1-secure.test>
+To: employee@example.com
+Subject: Your account has been limited
+Date: Wed, 16 Sep 2026 08:30:00 +0000
+Message-ID: <pp-limit-01@paypa1-secure.test>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Received: from mail.paypa1-secure.test (mail.paypa1-secure.test [203.0.113.90])
+    by mx.example.com with ESMTP id pqr678
+    for <employee@example.com>; Wed, 16 Sep 2026 08:29:55 +0000
+Authentication-Results: mx.example.com;
+    spf=fail smtp.mailfrom=paypa1-secure.test;
+    dkim=fail header.d=paypa1-secure.test;
+    dmarc=fail (p=none) header.from=paypa1-secure.test
+
+Your PayPal account has been limited due to unusual activity.
+
+Please visit https://paypa1-secure.test/resolve to restore access.
+
+PayPal Security Team

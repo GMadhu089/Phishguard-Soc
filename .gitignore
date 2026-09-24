@@ -1,0 +1,21 @@
+# Environment / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Generated reports (keep folder, ignore contents)
+reports/*.md
+reports/*.json
+!reports/.gitkeep
+reports/*.html
+
+# OS
+.DS_Store
+Thumbs.db

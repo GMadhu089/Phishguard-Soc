@@ -1,0 +1,29 @@
+From: Weekly Digest <newsletter@example.com>
+To: subscriber@example.com
+Reply-To: no-reply@example.com
+Return-Path: <bounce@example.com>
+Subject: Your weekly digest: 5 articles you might like
+Date: Thu, 17 Sep 2026 07:00:00 +0000
+Message-ID: <digest-0917@example.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Received: from mail.example.com (mail.example.com [198.51.100.20])
+    by mx.example.com with ESMTPS id stu901
+    for <subscriber@example.com>; Thu, 17 Sep 2026 07:00:02 +0000
+Authentication-Results: mx.example.com;
+    spf=pass smtp.mailfrom=example.com;
+    dkim=pass header.d=example.com header.s=newsletter;
+    dmarc=pass (p=quarantine) header.from=example.com
+
+<html>
+<body>
+<p>Hi there,</p>
+<p>Here's your weekly digest of top articles:</p>
+<ul>
+<li><a href="https://example.com/articles/1">5 Tips for Better Sleep</a></li>
+<li><a href="https://example.com/articles/2">The Future of Renewable Energy</a></li>
+<li><a href="https://example.com/unsubscribe?id=12345">Unsubscribe</a></li>
+</ul>
+<p>Thanks for reading,<br>The Weekly Digest Team</p>
+</body>
+</html>
