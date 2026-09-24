@@ -12,6 +12,10 @@
 > L1 SOC analyst does on every reported phishing email, so the analyst can
 > spend their time on judgment calls instead of manual data collection.
 
+## 📸 Project Preview
+
+![PhishGuard SOC Analysis Report](screenshots/phishguard-report.png)
+
 ## Overview
 
 PhishGuard SOC takes a suspicious `.eml` file and automatically:
